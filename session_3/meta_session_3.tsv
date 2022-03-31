@@ -1,0 +1,11 @@
+All gestures are performed in window 6 seconds long, in take of 90 seconds									
+date	subject	replicate	noise	intent	body orientation	hand orientation	gestures	firebase	time
+March 30	Gati	1	clean	isolated	sitting in chair	90 deg (in air, face-level)	e-a-f-i-d-j-m-h-b-g-l-n-k-c	48cbXKYeT5P8VGcJss67bcl9zUY2/E9D5D023-4CE9-430A-8A27-ABBF083638CB.json	
+March 30	Gati	1	clean	isolated	sitting in chair	45 deg (in air, chest-level)	j-e-n-f-l-m-k-b-i-d-c-a-h-g	48cbXKYeT5P8VGcJss67bcl9zUY2/CA83FDEF-6DB7-4D8D-BC79-0D1303FFC7C1.json	
+March 30	Gati	1	clean	isolated	sitting in chair	0 deg (in air, table-level) 	m-j-g-c-b-f-e-a-k-n-h-i-l-d	48cbXKYeT5P8VGcJss67bcl9zUY2/BDD29420-3EE9-405A-8108-3D067E358451.json	
+March 30	Gati	1	clean	isolated	sitting in chair	0 deg (on surface, table-level)	j-g-c-l-k-h-i-n-f-m-b-e-a-d	48cbXKYeT5P8VGcJss67bcl9zUY2/03296BD7-0830-471B-9652-58C97743FE96.json	
+March 30	Gati	1	clean	isolated	sitting in chair	0 deg (in air, thigh-level)	d-b-n-i-l-j-m-a-e-h-c-f-g-k	48cbXKYeT5P8VGcJss67bcl9zUY2/7B5E325E-329F-40B4-A8B8-378599598824.json	
+March 30	Gati	1	clean	isolated	sitting in chair	0 deg (on surface, thigh-level)	b-a-f-e-l-g-h-j-i-n-m-c-k-d	48cbXKYeT5P8VGcJss67bcl9zUY2/0A3419D3-2222-4C3F-9873-DFA4A11D9E9E.json	
+March 30	Gati	1	clean	isolated	sitting in chair	-45 deg (in air, chair-level)	g-m-i-e-l-j-a-d-c-b-n-k-h-f	48cbXKYeT5P8VGcJss67bcl9zUY2/197F3BAD-517B-4369-A8F6-A57C95120112.json	
+March 30	Gati	1	clean	isolated	sitting in chair	-45 deg (on surface, chair-level)	f-n-k-m-g-d-j-l-c-i-a-b-e-h	48cbXKYeT5P8VGcJss67bcl9zUY2/631BC338-6CDC-4060-85E4-6DC9FA6C4CBF.json	
+March 30	Gati	1	clean	isolated	sitting in chair	-90 (in air, straight down)	d-c-h-i-j-n-a-e-f-m-g-k-b-l	48cbXKYeT5P8VGcJss67bcl9zUY2/008EFDB1-0CE4-44F6-A873-1E29E91783D6.json	

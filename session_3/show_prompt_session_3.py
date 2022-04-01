@@ -30,7 +30,7 @@ def main():
     
     # 6 seconds to get ready
     print("Get in position...")
-    print("Tap when ready...")
+    print("Tap to mark start and end of each gesture...")
     time.sleep(6)
 
     # show each prompt for 6 seconds
@@ -39,7 +39,7 @@ def main():
     
     print("-".join(gestures))
     print("Tap when finished")
-    print("Send data to firebase")
+    print("Remember to upload data to firebase!")
 
 if __name__ == "__main__":
     main()

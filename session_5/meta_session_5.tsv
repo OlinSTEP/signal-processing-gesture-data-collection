@@ -1,0 +1,57 @@
+Keep. Data is clean, keep last 12 detected gestures Remove (red) technically clean data, but too much effort to identify the correct threshold to keep Remove. Throw out trial (gestures detection is too messy, not worth it)		A. comfortable, with arm rest B. comfortable, without arm rest C. small discrete action	1. Day 1 2. Day 2		1. head 2. chest 3. waist 4. thigh 5. below		Default Assumptions: * User facing same direction as monitor * User sitting down				
+Keep	Username	Intent	Replicate	Finger	Height of Gesture	Elbow/Wrist	Other Notes				
+keep	Eamon	A	1	middle-ring	chest	mix of elbow/wrist, armrest	Ring is tight, hands are shaky				
+keep	Eamon	B	1	middle-ring	chest	mostly wrist, some elbow	Ring is tight, hands are shaky				
+keep	Eamon	C	1	middle-ring	waist	Majority wrist, slight elbow (negligible...)	Ring is tight, hands are shaky				
+remove	Stella	A	1	index-middle	abdomen 	lots of wrist, some elbow; forearm stable					
+remove	Stella	B	1	index-middle	abdomen	high wrist movement, stable elbow					
+remove	Stella	C	1	index-middle	waist	minimal elbow, high wrist motion, mostly fingers in ccw rotation, higher finger mobility, 	test cancelled and repeated due to swiveling lol, appreciated the sound effects, dealt with timing and commands exceptionally	ideal experience, low time commitment, would recommend to anyone else			
+remove	Myles	A	1	index-middle	chest upper, elbow mounted on table	mostly wrist movements, elbow stabilized on table	good gestures				
+keep	Myles	B	1	index-middle	chest height, elevated almost parallel to the ground	steady hand, mostly wrist movements, slight elbow	good gestures				
+remove	Myles	C	1	index-middle	waist	mostly wrist, held on lap/knee	visibly clear gestures				
+keep	Charlie	A	1	index-middle	abdomen	some elbow, mostly wrist	steady gestures, steady hands				
+keep	Charlie	B	1	index-middle	chest	some elbow and shoulder, sometimes mostly wrist	steady gestures, mostly wrist towards the end				
+remove	Charlie	C	1	index-middle	chest	mostly wrist	hand under the table on armrest, tap is somewhat downward, leftward motion was heavily wrist dependent	redone to practice under the table gestures for downward motion			
+keep	Alessandra	A	1	index-middle	chest	mostly wrist, elbow slightly but fixed on armrest	consistent wrist motions, stable movement				
+keep	Alessandra	B	1	index-middle	chest	slightly more elbow wobbling, but still mostly wrist	consistent wrist motions, stable movement	great gestures visibly			
+keep	Alessandra	C	1	index-middle	chest	wrist	consistent wrist motions, stable movement, hand was often in a fist while idle	nice small gestures			
+remove	Alex	A	1	index-middle	elbow fixed on table, around chest height	mostly wrist, some elbow	right motion was slughtly upward,  great gestures, clearly visible, there's a video available	clean gestures	video available	worn backwards	
+remove	Alex	B	1	index-middle	stomach height, floating in air	elbow and wristt	some forward and backward shifting on elbow, mostly wrist dominant motions	Clean gestures	video available	worn backwards	
+remove	Alex	C	1	index-middle	downward facing on thigh	mostly wrist, little elbow movements	hand supported by other hand, IMU slightly pointed downward toward the ground	uh oh, i think the device was backwards	video available	worn backwards	
+keep	Ben	A	1	index-middle	chest abdomen, armrest mounted	noticeable elbow movement, some wrist	some shaking, shoulder driven taps				
+keep	Ben	B	1	index-middle	chest	shoulder and elbow movement	larger downward gestures and right gesture, shoulder driven taps, shoulder and elbow driven swipes, sitting in chair with armrest shifted away				
+remove	Ben	C	1	index-middle	flat on table	finger mostly	downward motion started with lifting up prior to **make** command	very very discreet gestures			
+keep	Prisha	A	1	index-middle	chest	wrist	somewhat angled downward	later gestures a bit more intense			
+remove	Prisha	B	1	index-middle	chest	wrist	pretty steady motions				
+keep	Prisha	C	1	index-middle	chest	wrist + fingers		subtle motions, smaller gestures, video available	video available	img_2378	
+remove	Rishita	A	1	index-middle	abdomen/chest	wrist	forward shifting for tap gestures, slight upward motion on right gestures, some larger taps	very loose on rishita, shifting of sensor during downward motion -> retested	video available	img_2379	Expressed concern that 2-finger ring isn't comfortable
+keep	Rishita	B	1	index-middle	chest	wrist	palm slightly raised and closed at end of gestures, 	clean wrist gestures	video available	img_2380	
+remove	Rishita	C	1	index-middle	thigh		under the table, on lap	itty bitty gestures	video available	img_2381	
+keep	AlexRE	A	1	index-middle	chest	wrist	on table arm rest	clear flick gestures			
+keep	AlexRE	B	1	index-middle	waist	wrist	level with table	clear flick gestures			
+keep	AlexRE	C	1	index-middle	below	wrist	under the table, between legs	clear flick gestures			
+remove	Luke	A	1	index-middle	chest	wrist	chair arm rest	made one error, on second gesture (made too early, then redid)	Did a double tap		Wants to do a double tap
+keep	Gati	A	1	index-middle	head	wrist	table arm rest				
+keep	Gati	B	1	index-middle	chest	wrist	above table				
+keep	Gati	C	1	index-middle	waist	wrist	on table arm rest				
+keep	LukeRE	A	1	index-middle	head	wrist	on table arm rest				
+keep	LukeRE	B	1	index-middle	chest	wrist	clear gestures				
+keep	LukeRE	C	1	index-middle	in lap	wrist	under table, hand oriented sideways	had a good time			
+keep	SamK	A	1	index-middle	chest	elbow,more wrist as time goes on	chair arm rest	clean, agressive gestures			
+keep	SamK	B	1	index-middle	chest	wrist					
+keep	SamK	C	1	index-middle	thigh	wrist	under the table, drawing on lap	inch worm tap	feels cool		
+keep	Hk	A	1	index-middle	head	wrist	hand moves a lot, arm rest on table	inch worm tap			
+keep	Hk	B	1	index-middle	chest	wrist/elbow	hand moves a lot				
+remove	Hk	C	1	index-middle	waist	wrist	chair arm rest				
+keep	Adi	A	1	index-middle	waist	wrist	chair arm rest	gestures with index finger	slight movements to get back in position during study		
+remove	Adi	B	1	index-middle	waist	wrist	under the table	gestures with index finger	large slow movements to get back in position during study		
+remove	Adi	C	1	index-middle	lap	wrist	under the table, between legs	gestures with index finger	super easy to do with tip of pointer finger. Doing the whole motion with a hand is a pain, using just the pointer finger is frictionless 		
+keep	Declan	A	1	index-middle	chest	elbow	chair arm rest, big clear flowy gestures				
+keep	Declan	B	1	index-middle	chest	wrist and elbow					
+keep	Declan	C	1	index-middle	waist	wrist	in lap	in lap, lifting when doing gesture	swaying side to side slightly, rolling chair	Expressed concern about user's perception of direction when, say, hands are on hips (down-direction is no longer IMU z-axis)	
+remove	Alana	A	1	index-middle	waist	elbow	on arm rest	lifts hand and noticeably moves hands when tapping -- tap not comfy			
+keep	Alana	B	1	index-middle	waist	wrist/elbow	very twisty wrist gestures for clockwise turn	itchy ring			
+remove	Alana	C	1	index-middle	lap	wrist	noticeble gestues, doing tap normally (but tap still not comfy)			Expressed concern about tap motion --> uncomfy	
+keep	SeungU	A	1	index-middle	chest	elbow	really clean/aggressive gestures	downwards tap		Expressed concern about tap motion --> uncomfy	
+keep	SeungU	B	1	index-middle	chest	wrist	very wide obvious gestures	downwards tap, especially on the last gesture			
+remove	SeungU	C	1	index-middle	chest	wrist	leaning back in chair, on arm rest	downwards tap	Would like to use one-handed buttons rather than gestures (cannot use on bike/car) 	Expressed concern with left vs. right hand. Wants to wear on left hand.	

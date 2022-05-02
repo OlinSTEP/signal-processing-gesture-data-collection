@@ -1,2 +1,2 @@
 .ipynb_checkpoints
-demo_day/pca_svm_train_model.pkl
+*.pkl
